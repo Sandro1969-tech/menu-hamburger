@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  /* Esconde o ícone quando a tela é grande */
+  .menu-icon {
+    display: none;
+  }
+
+  /* Mostra o menu sempre */
+  menu {
+    display: block;
+  }
+
+  /* Coloca os itens lado a lado */
+  menu > ul > li {
+    display: inline-block;
+  }
+
+  main {
+    width: 768px;
+  }
+}

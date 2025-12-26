@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media Queries</title>
   <link rel="stylesheet" href="query.css">
-  <link rel="stylesheet" href="style.css">
   <style>
     
     .menu-icon {
@@ -107,25 +106,20 @@
   </footer>
 
   <!-- Script no final -->
-<script>
-  function mudouTamanho() {
-    const menu = document.getElementById('menu');
-    if (window.innerWidth >= 768) {
-      menu.style.display = 'block';
-    } else {
-      menu.style.display = 'none';
+  <script>
+    function mudouTamanho() {
+      if (window.innerWidth >= 768) {
+        itens.style.display = 
+      }
     }
-  }
-
-  function clickMenu() {
-    const menu = document.getElementById('menu');
-    if (menu.style.display === 'block') {
-      menu.style.display = 'none';
-    } else {
-      menu.style.display = 'block';
+    function clickMenu() {
+      const menu = document.getElementById('menu');
+      if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
     }
-  }
-</script>
-
+  </script>
 </body>
 </html>
